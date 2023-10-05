@@ -1,0 +1,10 @@
+{% extends "main/padre.html" %}
+{% load static %}
+{% block form_Clases %}
+    <form action="/Clases" method="POST">{% csrf_token %}
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Horario: <input type="number" name="horario"></p>
+
+        <input type="submit" value="enviar">
+    </form>
+{% endblock %}

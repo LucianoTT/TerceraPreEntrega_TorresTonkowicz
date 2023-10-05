@@ -1,0 +1,10 @@
+{% extends "main/padre.html" %}
+{% load static %}
+{% block search %}
+ <form action="" method="POST"> {% csrf_token %}
+    <table>
+        {{ myform.as_table }}
+    </table>
+    <input type="submit" value="enviar">
+ </form>
+{% endblock %}
