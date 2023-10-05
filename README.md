@@ -11,5 +11,5 @@ Pasos para el testing:
 8. Luego si se requiere se puede buscar un empleado haciendo click en la cuarta imagen de formularios (Solo se pueden buscar empleados)
 
 Notas:
--Yo utilize Google Chrome para testear la página, en Mozilla Firefox no se veía bien
--El template utilizado es este: https://templatemo.com/tm-560-astro-motion
+Yo utilize Google Chrome para testear la página, en Mozilla Firefox no se veía bien.
+El template utilizado es este: https://templatemo.com/tm-560-astro-motion.
